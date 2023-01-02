@@ -28,6 +28,7 @@ chmod +x networkspoofer
 >
 >You first have to switch to super user before running the script.
 # Usage
+To forward the incoming traffic from victim's device you need to run this command.
 ```sh
 echo 1 > /proc/sys/net/ipv4/ip_forward
 
