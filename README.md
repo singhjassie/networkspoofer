@@ -1,5 +1,11 @@
 # networkspoofer
 Spoof a device connected to your local network
+This tool will help you to do a man-in-the-middle attack.
+
+# Spoofing
+
+Spoofing means to get into middle of a victim's device and access point.
+This way all the traffic from and to the victim's device will flow through your device. Then you can [sniff](http://github.com:singhjassie/networksniffer) the traffic and do further attacks like [packet-injection]() and [dns-spoofing](http://github.com:singhjassie/dnsspoofer). This ways you can take full controll over victims device. 
 
 # Installation
 1. Clone the package using git. You can also download zip file from github repository and then extract it.
