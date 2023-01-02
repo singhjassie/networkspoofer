@@ -28,6 +28,10 @@ chmod +x networkspoofer
 >
 >You first have to switch to super user before running the script.
 # Usage
+```sh
+echo 1 > /proc/sys/net/ipv4/ip_forward
+
+```
 Enter the following command to see usage help
 ```
 ./networkspoofer --help
